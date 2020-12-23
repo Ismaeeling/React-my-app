@@ -92,6 +92,7 @@ class App extends Component{
     return(
         <div className="App">
           <h1>Hello Fuckers</h1>
+          <p>Hello from malacha</p>
           <p className={classes.join(' ')}>Hello to Fuckers</p>
           <ButtonStyle onClick={this.togglePerson} alt={this.state.showPerson}>Click it Fucker</ButtonStyle>
           {person}
