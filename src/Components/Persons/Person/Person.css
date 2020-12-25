@@ -1,0 +1,27 @@
+.person {
+  width: 60%;
+  margin: 15px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 15px;
+}
+@media (max-width: 500px) {
+  .person {
+    width: 85%;
+  }
+}
+
+.nameInput {
+  display: inline-grid;
+}
+
+.nameInput button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+.nameInput button:hover {
+  background-color: red;
+}
