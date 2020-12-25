@@ -54,9 +54,7 @@ class App extends Component{
         clicked={this.deletePerson}
         changed={this.changeName}
       />
-      </div>)
-    
-        // btnClass = classes.Red;   
+      </div>) 
       }
 
     return(
